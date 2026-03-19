@@ -24,6 +24,22 @@ header{
    text-align: center;
    color: #fff;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   position: relative;
+}
+
+.banner::after {
+  content: ""; /* cria um pseudo-elemento (como uma "camada extra") */
+  position: absolute; /* permite posicionar livremente dentro do banner */
+  bottom: 0; /* cola essa camada no fundo do banner */
+  width: 100%; /* ocupa toda a largura do banner */
+  height: 70px; /* altura da área do degradê (quanto maior, mais suave a transição) */
+
+  /* degrade do banner para a cor da próxima seção */
+  background: linear-gradient(
+    to bottom,  /* direção: de cima para baixo */
+    rgba(255, 255, 255, 0) 0%, /* começa transparente (não altera o banner) */
+    #f4f4f4 100% /* termina branco (mesma cor da próxima seção) */
+  );
 }
 
 .banner-content{
@@ -37,21 +53,36 @@ header{
 
 .banner p{
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
 }
 
 nav a{
-    color: #333;
+    color: #ffff;
     text-decoration: none;
     margin: 0.1rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     background-color: #ff9800;
+    font-weight: 500;
+    display: inline-block; /* Necessário para aplicar transform corretamente */
+    transition: transform 0.2s ease-in-out;
+    /*
+        0.2s = duração da animação
+        - menor (0.1s) → mais rápido
+        - maior (0.4s) → mais lento
+
+        ease = tipo de suavização (easing)
+        - ease → começa rápido e desacelera
+        - ease-in → começa devagar
+        - ease-out → termina devagar
+        - ease-in-out → suave no começo e no fim
+    */
 }
 
 nav a:hover{
-    background-color: #fc9c0c;
-    color: #fff;
+    color: #eaeaea;
+    transform: translateY(-4px); /* "salto" para cima */
 }
 
 main{
