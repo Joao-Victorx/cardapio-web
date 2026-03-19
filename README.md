@@ -6,13 +6,13 @@
   <br><img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-## 📌 Sobre o Projeto
+<h2>📌 Sobre o Projeto</h2>
 
 <p>
 Este projeto está sendo desenvolvido como parte da disciplina de Front-end do curso de Engenharia de Software. A proposta consiste na criação de um cardápio web de produtos alimentícios, aplicando conceitos de estruturação, estilização e interatividade em aplicações web.<br><br>
-Como inspiração, o projeto foi baseado em uma hamburgueria de Londrina, a Elite Burger, buscando simular uma experiência real de navegação e pedido online </p>
+Como inspiração, o projeto foi baseado em uma hamburgueria de Londrina, a Elite Burger, buscando simular uma experiência real de navegação e pedido online. </p>
 
-<br><h2>🔨 Funcionalidades</h2>
+<h2>🔨 Funcionalidades</h2>
 <ul>
   <li>
     <strong>Banner de Categorias</strong><br>
@@ -48,12 +48,12 @@ Como inspiração, o projeto foi baseado em uma hamburgueria de Londrina, a Elit
   </li>
 </ul>
 
-<br><h2>🎯 Objetivo</h2>
+<h2>🎯 Objetivo</h2>
 <p>
 O objetivo principal é praticar o desenvolvimento de interfaces modernas e funcionais, simulando um sistema real de pedidos online, com foco em usabilidade e experiência do usuário.
 </p>
 
-<br><h2>✔️ Tecnologias Utilizadas</h2>
+<h2>✔️ Tecnologias Utilizadas</h2>
 
 - `HTML`: Responsável pela estruturação da página, organizando os elementos e criando os containers para exibição dos produtos.
 - `CSS`: Utilizado para estilização da interface, incluindo layout, cores, tipografia e organização visual da listagem de produtos.
