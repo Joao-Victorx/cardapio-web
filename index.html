@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cardápio Web</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header class="banner"> 
+        <div class="banner-content">
+            <h1>Lancheria Gostosa</h1>
+            <p>O lanche mais saboroso do mundo, recheado de sonhos</p>
+            <nav>
+                <a href="#home">Lanches</a>
+                <a href="#cardapio">Bebidas</a>
+                <a href="#sobre">Pedido</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Corpo da Página -->
+    <main>
+        <!-- Seção para os Lanches -->
+        <section id="lanches" class="categoria">
+            <h2>Lanches</h2>
+            <div class="produto">
+                <img src="./images/lanche bacon.jpeg" alt="Lanche de Bacon">
+                <h3>Lanche de Bacon</h3>
+                <p>Lanche de Bacon com queijo, tomate, alface e molhos</p>
+                <span class="preco">R$ 25,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="./images/lanche calabresa.png" alt="Lanche de Calabresa">
+                <h3>Lanche de Calabresa</h3>
+                <p>Lanche de Calabresa com hamburguer, queijo, tomate, alface e molhos</p>
+                <span class="preco">R$ 27,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="./images/lanche frango.jpeg" alt="Lanche de Frango">
+                <h3>Lanche de Frango</h3>
+                <p>Lanche de Frango com salsicha, queijo,tomate, alface e molhos</p>
+                <span class="preco">R$ 26,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="./images/lanche salada.jpeg" alt="Lanche de Salada">
+                <h3>Lanche de Salada</h3>
+                <p>Lanche de Salada com hamburguer, queijo, tomate, alface e molhos</p>
+                <span class="preco">R$ 24,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="./images/lanche xtudo.jpeg" alt="Lanche XTudo">
+                <h3>Lanche XTudo</h3>
+                <p>Lanche XTudo com hamburguer, queijo, salsicha, frango, calabresa, bacon, tomate, alface e molhos</p>
+                <span class="preco">R$ 25,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+        <!-- Seção para as Bebidas -->
+        <section id="bebidas" class="categoria">
+            <h2>Bebidas</h2>
+            <div class="produto">
+                <img src="./images/cocacola.jpeg" alt="Coca-Cola">
+                <h3>Coca-Cola</h3>
+                <p>Refrigerante Coca-Cola geladinho para acompanhar seu lanche (350ml)</p>
+                <span class="preco">R$ 8,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="./images/guarana.jpeg" alt="Guaraná">
+                <h3>Guaraná</h3>
+                <p>Refrigerante Guaraná geladinho para acompanhar seu lanche (350ml)</p>
+                <span class="preco">R$ 7,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+            <div class="produto">
+                <img src="./images/fanta.webp" alt="Fanta Laranja">
+                <h3>Fanta Laranja</h3>
+                <p>Refrigerante Fanta Laranja geladinho para acompanhar seu lanche (350ml)</p>
+                <span class="preco">R$ 7,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+        <!-- Seção para os Pedidos -->
+        <section id="pedidos" class="categoria">
+            <h2>Pedidos</h2>
+            <ul id="lista-pedido">
+
+            </ul>
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-pedido">Finalizar Pedido</button>
+        </section>
+        <!-- Seção para os Contatos -->
+        <section id="contato" class="categoria">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco!</p>
+            <a href="https://wa.me/5543984879800" target="_blank">WhatsApp</a>
+            <a href="#" target="_blank">Instagram</a>
+
+        </section>
+    </main>
+    <!-- Rodapé da Página -->
+    <footer>
+        <p>&copy; 2023 Lancheria Gostosa. Todos os direitos reservados.</p>
+        <p><em>Desenvolvido por:</em><a href="https://www.linkedin.com/in/joãovictormarcondes" target="_blank">João Victor</a></p>
+    </footer>
+    <script src='script.js'></script>
+</body>
+</html>
